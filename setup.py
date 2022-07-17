@@ -1,5 +1,5 @@
 """
-jupyterlite_xeus_python setup
+dive_jupyterlite_xeus_python setup
 """
 import json
 import sys
@@ -10,7 +10,7 @@ import setuptools
 HERE = Path(__file__).parent.resolve()
 
 # The name of the project
-name = "jupyterlite-xeus-python"
+name = "dive-jupyterlite-xeus-python"
 
 lab_path = (HERE / "share" / "jupyter" / "labextensions" / "@jupyterlite" / "xeus-python-kernel")
 
@@ -81,7 +81,7 @@ setup_args = dict(
     ],
     entry_points={
         "jupyterlite.addon.v0": [
-            "jupyterlite-xeus-python=jupyterlite_xeus_python.env_build_addon:XeusPythonEnv"
+            "dive-jupyterlite-xeus-python=dive_jupyterlite_xeus_python.env_build_addon:XeusPythonEnv"
         ]
     }
 )

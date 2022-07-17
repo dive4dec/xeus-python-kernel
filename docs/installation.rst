@@ -3,11 +3,11 @@
 Installation
 ============
 
-You can install ``jupyterlite-xeus-python`` with ``pip``:
+You can install ``dive-jupyterlite-xeus-python`` with ``pip``:
 
 .. code::
 
-    pip install jupyterlite jupyterlite-xeus-python
+    pip install jupyterlite dive-jupyterlite-xeus-python
 
     # This should pick up the xeus-python kernel automatically
     jupyter lite build

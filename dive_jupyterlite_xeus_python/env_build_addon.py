@@ -22,7 +22,7 @@ from jupyterlite.addons.federated_extensions import (
     ENV_EXTENSIONS,
 )
 
-JUPYTERLITE_XEUS_PYTHON = "@jupyterlite/xeus-python-kernel"
+dive_jupyterlite_xeus_PYTHON = "@jupyterlite/xeus-python-kernel"
 
 # TODO Make this configurable
 PYTHON_VERSION = "3.10"
@@ -111,10 +111,10 @@ class XeusPythonEnv(FederatedExtensionAddon):
 
     def post_build(self, manager):
         """yield a doit task to create the emscripten-32 env and grab anything we need from it"""
-        # Install the jupyterlite-xeus-python ourselves
+        # Install the dive-jupyterlite-xeus-python ourselves
         for pkg_json in self.env_extensions(ENV_EXTENSIONS):
             pkg_data = json.loads(pkg_json.read_text(**UTF8))
-            if pkg_data.get("name") == JUPYTERLITE_XEUS_PYTHON:
+            if pkg_data.get("name") == dive_jupyterlite_xeus_PYTHON:
                 yield from self.safe_copy_extension(pkg_json)
 
         # Bail early if there is no extra package to install
@@ -141,9 +141,9 @@ class XeusPythonEnv(FederatedExtensionAddon):
             yield from self.safe_copy_extension(pkg_json)
 
         # TODO Currently we're shamelessly overwriting the
-        # python_data.{js,data} into the jupyterlite-xeus-python labextension.
+        # python_data.{js,data} into the dive-jupyterlite-xeus-python labextension.
         # We should really find a nicer way.
-        # (make jupyterlite-xeus-python extension somewhat configurable?)
+        # (make dive-jupyterlite-xeus-python extension somewhat configurable?)
         dest = self.output_extensions / "@jupyterlite" / "xeus-python-kernel" / "static"
 
         for file in ["python_data.js", "python_data.data"]:

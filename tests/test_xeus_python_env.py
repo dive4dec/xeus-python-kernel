@@ -1,4 +1,4 @@
-"""Test creating Python envs for jupyterlite-xeus-python."""
+"""Test creating Python envs for dive-jupyterlite-xeus-python."""
 
 import os
 from tempfile import TemporaryDirectory
@@ -6,7 +6,7 @@ from pathlib import Path
 
 from jupyterlite.app import LiteStatusApp
 
-from jupyterlite_xeus_python.env_build_addon import XeusPythonEnv
+from dive_dive_jupyterlite_xeus_python.env_build_addon import XeusPythonEnv
 
 
 def test_python_env():

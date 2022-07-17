@@ -1,4 +1,4 @@
-# Making a new release of jupyterlite_xeus_python
+# Making a new release of dive_jupyterlite_xeus_python
 
 The extension can be published to `PyPI` and `npm` manually or using the [Jupyter Releaser](https://github.com/jupyter-server/jupyter_releaser).
 

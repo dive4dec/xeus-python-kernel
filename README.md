@@ -1,4 +1,4 @@
-# jupyterlite-xeus-python
+# dive-jupyterlite-xeus-python
 
 [![ci-badge]][ci] [![docs-badge]][docs]
 
@@ -9,7 +9,7 @@
 
 The [xeus-python](https://github.com/jupyter-xeus/xeus-python) Python kernel for JupyterLite running in the browser.
 
-![jupyterlite-xeus-python](https://user-images.githubusercontent.com/21197331/167814755-76975633-30f7-4f8e-8fdb-eeec98fa3fd1.gif)
+![dive-jupyterlite-xeus-python](https://user-images.githubusercontent.com/21197331/167814755-76975633-30f7-4f8e-8fdb-eeec98fa3fd1.gif)
 
 ## Requirements
 
@@ -20,7 +20,7 @@ The [xeus-python](https://github.com/jupyter-xeus/xeus-python) Python kernel for
 To install the extension, execute:
 
 ```bash
-pip install jupyterlite-xeus-python
+pip install dive-jupyterlite-xeus-python
 ```
 
 Then build your JupyterLite site:
@@ -62,7 +62,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlite_xeus_python directory
+# Change directory to the dive_jupyterlite_xeus_python directory
 # Install package in development mode
 python -m pip install -e .
 
@@ -87,12 +87,12 @@ With the watch command running, every saved change will immediately be built loc
 ### Development uninstall
 
 ```bash
-pip uninstall jupyterlite_xeus_python
+pip uninstall dive_jupyterlite_xeus_python
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlite-xeus-python` within that folder.
+folder is located. Then you can remove the symlink named `dive-jupyterlite-xeus-python` within that folder.
 
 ### Packaging the extension
 
