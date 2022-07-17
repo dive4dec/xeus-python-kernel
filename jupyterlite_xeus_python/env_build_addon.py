@@ -30,6 +30,7 @@ PYTHON_VERSION = "3.10"
 CHANNELS = [
     "https://repo.mamba.pm/emscripten-forge",
     "https://repo.mamba.pm/conda-forge",
+    "https://conda.anaconda.org/dive"
 ]
 PLATFORM = "emscripten-32"
 
