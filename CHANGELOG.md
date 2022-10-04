@@ -2,6 +2,91 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.5.6
+
+([Full Changelog](https://github.com/jupyterlite/xeus-python-kernel/compare/v0.5.5...fd6ab092a2820d3bd619792623d22599263ca580))
+
+### Bug fix
+
+- Fix caching issue [#73](https://github.com/jupyterlite/xeus-python-kernel/pull/73) ([@martinRenou](https://github.com/martinRenou))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-python-kernel/graphs/contributors?from=2022-08-17&to=2022-08-30&type=c))
+
+[@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3AmartinRenou+updated%3A2022-08-17..2022-08-30&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
+## 0.5.5
+
+([Full Changelog](https://github.com/jupyterlite/xeus-python-kernel/compare/v0.5.4...2e2458ec83390d03616c4a7bc2d96950cb6510fe))
+
+### Bugs fixed
+
+- Update jupyterlite [#68](https://github.com/jupyterlite/xeus-python-kernel/pull/68) ([@martinRenou](https://github.com/martinRenou))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-python-kernel/graphs/contributors?from=2022-08-16&to=2022-08-17&type=c))
+
+[@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3AmartinRenou+updated%3A2022-08-16..2022-08-17&type=Issues)
+
+## 0.5.4
+
+([Full Changelog](https://github.com/jupyterlite/xeus-python-kernel/compare/v0.5.3...66ea4178110c6ce99dc75edaebe61164122ad85d))
+
+### Maintenance
+
+- Use file-loader for the png files [#65](https://github.com/jupyterlite/xeus-python-kernel/pull/65) ([@martinRenou](https://github.com/martinRenou))
+
+### Documentation
+
+- Docs: Disable other kernels [#64](https://github.com/jupyterlite/xeus-python-kernel/pull/64) ([@martinRenou](https://github.com/martinRenou))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-python-kernel/graphs/contributors?from=2022-08-05&to=2022-08-16&type=c))
+
+[@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3AmartinRenou+updated%3A2022-08-05..2022-08-16&type=Issues)
+
+## 0.5.3
+
+([Full Changelog](https://github.com/jupyterlite/xeus-python-kernel/compare/v0.5.2...7d1a9e87d2ec0243ef871e07238fcd3602ad7878))
+
+### Enhancements made
+
+- Update to empack 1 with support for loading custom empack config [#62](https://github.com/jupyterlite/xeus-python-kernel/pull/62) ([@martinRenou](https://github.com/martinRenou))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-python-kernel/graphs/contributors?from=2022-08-04&to=2022-08-05&type=c))
+
+[@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3AmartinRenou+updated%3A2022-08-04..2022-08-05&type=Issues)
+
+## 0.5.2
+
+([Full Changelog](https://github.com/jupyterlite/xeus-python-kernel/compare/v0.5.1...8901f99213d6eb01be6e06dd4ba35821972c2f5e))
+
+### Maintenance and upkeep improvements
+
+- Fix typo in `initFileSystem` method name [#52](https://github.com/jupyterlite/xeus-python-kernel/pull/52) ([@jtpio](https://github.com/jtpio))
+
+### Documentation improvements
+
+- Remove leading space in the replite default example [#49](https://github.com/jupyterlite/xeus-python-kernel/pull/49) ([@jtpio](https://github.com/jtpio))
+
+### Other merged PRs
+
+- Update empack to 0.8.2 [#59](https://github.com/jupyterlite/xeus-python-kernel/pull/59) ([@martinRenou](https://github.com/martinRenou))
+- Remove print statement [#58](https://github.com/jupyterlite/xeus-python-kernel/pull/58) ([@martinRenou](https://github.com/martinRenou))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-python-kernel/graphs/contributors?from=2022-06-28&to=2022-08-04&type=c))
+
+[@jtpio](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3Ajtpio+updated%3A2022-06-28..2022-08-04&type=Issues) | [@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3AmartinRenou+updated%3A2022-06-28..2022-08-04&type=Issues)
+
 ## 0.5.1
 
 ([Full Changelog](https://github.com/jupyterlite/xeus-python-kernel/compare/v0.5.0...974e729e0a90981e7a7c11a2428c13730a4a8d90))
@@ -25,8 +110,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyterlite/xeus-python-kernel/graphs/contributors?from=2022-06-27&to=2022-06-28&type=c))
 
 [@jtpio](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3Ajtpio+updated%3A2022-06-27..2022-06-28&type=Issues) | [@martinRenou](https://github.com/search?q=repo%3Ajupyterlite%2Fxeus-python-kernel+involves%3AmartinRenou+updated%3A2022-06-27..2022-06-28&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.5.0
 
